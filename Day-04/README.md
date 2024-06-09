@@ -102,11 +102,11 @@ Python workspaces can be local or virtual environments. A local environment is t
 
 ```bash
 # Create a virtual environment
-python -m venv myenv
+python -m venv project-abc
 
 # Activate the virtual environment (on Windows)
 myenv\Scripts\activate
-
+or
 # Activate the virtual environment (on macOS/Linux)
 source myenv/bin/activate
 ```
