@@ -105,10 +105,11 @@ Python workspaces can be local or virtual environments. A local environment is t
 python -m venv project-abc
 
 # Activate the virtual environment (on macOS/Linux)
-source myenv/bin/activate
+source project-abc/bin/activate
 or
 # Activate the virtual environment (on Windows)
-$ myenv\Scripts\activate
+$ project-abc\Scripts\activate
+
 # to comeout from the env/project
 $ deactivate
 
