@@ -108,7 +108,10 @@ python -m venv project-abc
 source myenv/bin/activate
 or
 # Activate the virtual environment (on Windows)
-myenv\Scripts\activate
+$ myenv\Scripts\activate
+# to comeout from the env/project
+$ deactivate
+
 
 ```
 
